@@ -123,3 +123,6 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Tells django to use our custom moodel for user -> <app_name>.<model_name>
+AUTH_USER_MODEL = 'profiles_api.UserProfile'
